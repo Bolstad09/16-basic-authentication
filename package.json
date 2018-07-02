@@ -1,0 +1,48 @@
+{
+  "name": "16-basic-authentication",
+  "version": "1.0.0",
+  "description": "![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 16: Basic Auth ===",
+  "main": "index.js",
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^8.2.5",
+    "babel-register": "^6.26.0",
+    "bcrypt": "^2.0.1",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "dotenv": "^6.0.0",
+    "eslint": "^5.0.1",
+    "express": "^4.16.3",
+    "flow": "^0.2.3",
+    "fs": "0.0.1-security",
+    "jest": "^23.2.0",
+    "jshint": "^2.9.5",
+    "mockgoose": "^7.3.5",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.1.7",
+    "morgan": "^1.9.0",
+    "require-dir": "^1.0.0",
+    "superagent": "^3.8.3",
+    "supertest": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "db": "mongod --dbpath=/Users/john/codefellows/tmp/db",
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test-watch": "jest --watchAll",
+    "test": "jest",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bolstad09/16-basic-authentication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bolstad09/16-basic-authentication/issues"
+  },
+  "homepage": "https://github.com/Bolstad09/16-basic-authentication#readme",
+  "keywords": []
+}
